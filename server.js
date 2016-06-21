@@ -25,7 +25,7 @@ photos, videos, and location.
 -----------------------------------------------------------------------------*/
 
 var restify = require('restify');
-var builder = require('../../');
+var builder = require('botbuilder');
   
 // Create bot and setup server
 var bot = new builder.BotConnectorBot({ 
